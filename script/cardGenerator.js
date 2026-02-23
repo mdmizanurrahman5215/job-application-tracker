@@ -45,7 +45,7 @@ function generateCard(jobCard) {
           >
             <!-- right  -->
             <div  class=" ">
-              <h1  class="text-3xl font-bold">${companyName}</h1>
+              <h1  class="text-2xl font-medium">${companyName}</h1>
               <h3  class="text-2xl text-gray-700">
                ${position}
               </h3>
@@ -57,7 +57,7 @@ function generateCard(jobCard) {
                 <p >${salary}</p>
               </div>
               <span
-                class="status text-2xl px-4 py-1 ${statusColor} rounded-md border-2 border-gray-500"
+                class="status text-md font-medium px-4 py-2 ${statusColor} rounded-md border-none bg-gray-200 uppercase"
                 >${status}</span
               >
               <p  class="my-6">
@@ -66,15 +66,15 @@ function generateCard(jobCard) {
               <div  class="flex items-center gap-4">
                 <button
               
-                  class="interview-btn px-4 py-2 border-2 border-green-500 rounded-md bg-white text-green-500 font-bold cursor-pointer hover:bg-green-500 hover:text-white"
+                  class="interview-btn px-4 py-2 border-2 border-green-500 rounded-md bg-white text-green-500 font-bold cursor-pointer hover:bg-green-500 hover:text-white uppercase"
                 >
                 Interview
                 </button>
                 <button
                  
-                  class=" rejected-btn px-4 py-2 border-2 border-red-500 rounded-md bg-white text-red-500 font-bold hover:bg-red-500 hover:text-white cursor-pointer"
+                  class=" rejected-btn px-4 py-2 border-2 border-red-500 rounded-md bg-white text-red-500 font-bold hover:bg-red-500 hover:text-white cursor-pointer uppercase"
                 >
-                 Reject
+                 Rejected
                 </button>
               </div>
             </div>
@@ -90,7 +90,7 @@ function generateCard(jobCard) {
 
               <button
               
-                class="card-delete-btn   w-full bg-red-500 py-2 rounded-md shadow-sm text-white font-bold text-2xl md:hidden cursor-pointer hover:bg-red-700"
+                class="card-delete-btn  bg-red-500 px-8 py-2 rounded-md shadow-sm text-white font-medium text-2xl md:hidden cursor-pointer hover:bg-white hover:text-red-500 hover:border-2 hover:border-red-500"
               >
                     Delete
               </button>
