@@ -85,7 +85,7 @@ function generateCard(jobCard) {
               
                 class="card-delete-btn hidden md:block w-[50px] h-[50px] flex justify-center items-center border-2 border-gray-300 rounded-full p-2  cursor-pointer hover:bg-gray-200"
               >
-                <img src="../images/Trash.png" alt="" class="w-full" />
+                <img src="images/Trash.png" alt="" class="w-full" />
               </button>
 
               <button
