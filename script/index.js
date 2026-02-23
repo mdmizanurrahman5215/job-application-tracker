@@ -9,7 +9,11 @@ cardContainer.addEventListener("click", buttonHandler)
 
 
 
-
-
-
+window.addEventListener("load", function (){
 generateCard(cards)
+updateCount()
+availableCount(cards)
+
+})
+
+
