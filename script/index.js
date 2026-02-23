@@ -2,6 +2,9 @@ console.log("index connected");
 let cards = [...jobCards]
 console.log(cards);
 
+const cardContainer = document.getElementById("card-container");
+
+cardContainer.addEventListener("click", buttonHandler)
 
 
 
@@ -9,4 +12,4 @@ console.log(cards);
 
 
 
-// generateCard(cards)
+generateCard(cards)

@@ -2,7 +2,7 @@ console.log("cardgenarator connected");
 
 
 
-const cardContainer = document.getElementById("card-container");
+
 
 function generateCard(jobCard) {
   cardContainer.innerHTML = "";
