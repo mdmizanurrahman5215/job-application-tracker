@@ -5,9 +5,10 @@ const interviewTab = document.getElementById("interview-filter-btn")
 const rejectedTab = document.getElementById("rejected-filter-btn")
 
 let currentTab = "All"
+
 function toggle(id){
     currentTab = id
-   console.log(id);
+ 
    
     
  const selectedTab = document.getElementById(id)

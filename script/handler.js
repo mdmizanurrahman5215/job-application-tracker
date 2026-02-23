@@ -12,12 +12,12 @@ function buttonHandler(e) {
 //  interview 
   if (interviewBtn) {
     selectedCard.status = "Interview";
-    selectedCard.statusColor = "bg-green-500 text-black font-medium";
+    selectedCard.statusColor = "bg-green-500 text-white font-medium";
   }
 //   reject 
   if (rejectBtn) {
     selectedCard.status = "Rejected";
-    selectedCard.statusColor = "bg-red-500 text-black font-medium";
+    selectedCard.statusColor = "bg-red-500 text-white font-medium";
   }
 //   delete 
   if(deleteBtn){
