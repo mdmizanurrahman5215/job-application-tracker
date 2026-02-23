@@ -6,6 +6,11 @@ const availableJob = document.getElementById("available-job")
 
 function updateCount(){
  totalElem.innerHTML = cards.length
+ const interviewCount = cards.filter((c)=>c.status == "Interview").length
+ const rejectedCount = cards.filter((c)=>c.status == "Rejected").length
+
+ interviewElem.innerText = interviewCount
+ rejectedElem.innerText = rejectedCount
 }
 
 function availableCount(available){
