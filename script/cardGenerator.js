@@ -1,9 +1,3 @@
-console.log("cardgenarator connected");
-
-
-
-
-
 function generateCard(jobCard) {
   cardContainer.innerHTML = "";
 
@@ -102,4 +96,3 @@ function generateCard(jobCard) {
     cardContainer.appendChild(div);
   });
 }
-

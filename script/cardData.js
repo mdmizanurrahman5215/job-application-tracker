@@ -1,5 +1,3 @@
-console.log("cardData connected");
-
 const jobCards = [
   {
     id: 1,

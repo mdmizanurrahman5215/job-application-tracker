@@ -1,7 +1,7 @@
 
 function  renderByTab(){
     let filtered = cards
-    console.log(currentTab);
+   
     
 
     if(currentTab == "interview-filter-btn"){
