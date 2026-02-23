@@ -16,20 +16,20 @@
 - return static NodeList.
 - select multiple element using the same selector
 
-##2. How do you create and insert a new element into the DOM?
+## 2. How do you create and insert a new element into the DOM?
 - first we create a element using document.createElement("tagName")
 - select parant element .
 - add or insert the created element into the parant using parant.appendChild(tagName)
 
- ##3. What is Event Bubbling? And how does it work?
+ ## 3. What is Event Bubbling? And how does it work?
 - Event bubbling is a default behavior of dom.
 - it perform event from deepest targeted element then parant and goes up to document.
-##How it work
+## How it work
 - if you use an event like (click) on grandparent then parent and on child
 - then when the event triggerd first it run the deepest element (child) then goes uo to parent (bubbling) and then run the grandparent event
 - it happent if you triggered grandparent though. 
     
-##3. 4. What is Event Delegation in JavaScript? Why is it useful?
+## 4. What is Event Delegation in JavaScript? Why is it useful?
 ### Event Delegation
 - Event delegation is a js technique that useto to bubbling behavior.
 -  we add a single event to parant element to handle events trigger by its child element
